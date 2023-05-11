@@ -5,21 +5,21 @@
   "logo": {
     "file": "http://globals.research.uoc.edu/wp-content/uploads/2021/09/logo-01-17-c-6502-e-3-fc-504-b-23-ef-0-cbbb-9-d-60-fd-78-svg.svg",
     "link": "http://globals.research.uoc.edu/",
-    "text": "Global Literary Studies Research Lab"
+    "text": "[autor]"
   },
   "text": {
-    "more": "Further details...",
-    "intro": "This is an example viz",
-    "title": "gephi example"
+    "more": "[Añadir una descripción larga aquí]",
+    "intro": "[Añadir una descripción breve]",
+    "title": "[ejemplo de posible vizualización]"
   },
   "legend": {
-    "edgeLabel": "Direct flights",
-    "colorLabel": "no meaning",
-    "nodeLabel": "Airport"
+    "edgeLabel": "Connection",
+    "colorLabel": "Node type",
+    "nodeLabel": "Person, organisation, publisher, magazine or event."
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "color",
+    "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -28,12 +28,12 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "line",
+      "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 1,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
